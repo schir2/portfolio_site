@@ -23,3 +23,7 @@ htmlcov/
 .coverage.*
 *,cover
 /venv/
+/portfolio/database.db
+/portfolio/portfolio.db
+/portfolio/migrations/
+/assets/

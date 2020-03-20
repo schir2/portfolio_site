@@ -1,2 +1,8 @@
-{% block content %}
-{% endblock %}
+<nav>
+    <img class="logo" src="{{ url_for('static',filename='img/logos/logo.svg') }}" alt="Marek Schir, Developer">
+    <a class="button" href="{{ url_for('index') }}">Home</a>
+    <a class="button" href="{{ url_for('projects') }}">Projects</a>
+    <a class="button" href="{{ url_for('resume') }}">Resume</a>
+    <a class="button" href="{{ url_for('about_me') }}">About Me</a>
+    <a class="button" href="{{ url_for('contact_me') }}">Contact Me</a>
+</nav>
