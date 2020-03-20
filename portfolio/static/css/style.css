@@ -1,24 +1,25 @@
-:root{
-    --deep-green: #86E3CE;
-    --light-green: #D0E6A5;
-    --yellow: #FFDD94;
-    --red: #FA897B;
-    --purple: #CCABD8;
-}
-
 *{
     font-family: 'Calibri', sans-serif;
 }
 
 .logo{
     height: 4em;
+    padding-right: .6em;
+    transition: color 1s;
 }
 
+.logo:hover {
+    color: #c4620b;
+}
 .icon {
     height:2em;
     padding-left:.5em;
     padding-right:.5em;
-    filter:drop-shadow(-1px 1px 1px rgba(10,10,10,.5));
+    filter:grayscale(100%);
+    transition: all 1.5s ease;
+}
+.icon:hover{
+    filter:grayscale(0%);
 }
 
 body {
@@ -50,14 +51,13 @@ header > nav > a {
     color:#333333;
     padding-left:.6em;
     padding-right:.6em;
-    margin-left:.5em;
-    margin-right:.5em;
+
     border-radius: 0;
-    transition: color 1s, border-color 2s, border-radius 1s;
+    transition: color 1s;
 }
 
 header > nav > a:hover{
-    color:#222222;
+    color: #c4620b;
 
 }
 
