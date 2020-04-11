@@ -8,7 +8,7 @@ app.config.from_pyfile('config.py')
 
 db = SQLAlchemy(app)
 
-from models import *
+from portfolio.models import *
 
 migrate = Migrate(app, db)
 

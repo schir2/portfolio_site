@@ -1,6 +1,6 @@
 from flask import render_template
 
-from run import app
+from portfolio.run import app
 
 
 @app.route('/')
@@ -31,3 +31,8 @@ def resume():
 @app.route('/contact_ma')
 def contact_me():
     return render_template('portfolio/contact_me.html')
+
+
+@app.route('/canvas')
+def canvas():
+    return render_template('portfolio/canvas.html')

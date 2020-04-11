@@ -1,4 +1,4 @@
-from run import db
+from portfolio.run import db
 
 
 class User(db.Model):
