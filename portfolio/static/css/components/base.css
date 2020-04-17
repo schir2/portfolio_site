@@ -1,0 +1,42 @@
+* {
+  font-family: 'Calibri', sans-serif;
+}
+body {
+  background: url("/static/img/bg/butterfly/butterfly_2560.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+a {
+  text-decoration: None;
+}
+main {
+  display: grid;
+  justify-content: center;
+}
+.logo {
+  height: 4em;
+  padding-right: 0.6em;
+  transition: color 1s;
+}
+.logo:hover {
+  color: #ff6b35;
+}
+.icon {
+  height: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  filter: grayscale(100%);
+  transition: all 1.5s ease;
+  veritcal-align:middle;
+}
+.icon:hover {
+  filter: grayscale(0%);
+}
+/*# sourceMappingURL=base.css.map */

@@ -1,0 +1,150 @@
+.bg-color-contrast {
+  background-color: #ff6b35;
+}
+.bg-color-light-contrst {
+  background-color: #f7c59f;
+}
+.bg-color-blue {
+  background-color: #004e89;
+}
+.bg-color-light-blue {
+  background-color: #1a659e;
+}
+.bg-color-light {
+  background-color: #FFFDFF;
+}
+.bg-color-dark {
+  background-color: #130303;
+}
+.bg-color-gray {
+  background-color: #535151;
+}
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  background: url("/static/img/bg/butterfly/butterfly_2560.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  font-size: 3em;
+  color: #ff6b35;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 2em;
+  color: #ff6b35;
+}
+h4 {
+  font-size: 1.5em;
+}
+a {
+  text-decoration: None;
+}
+main {
+  display: grid;
+  justify-content: center;
+}
+.logo {
+  height: 4em;
+  padding-right: 0.6em;
+  transition: color 1s;
+}
+.logo:hover {
+  color: #ff6b35;
+}
+.icon {
+  height: 2em;
+  vertical-align: middle;
+}
+.icon-gray {
+  height: 2em;
+  vertical-align: middle;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  filter: grayscale(100%);
+  transition: all 1.5s ease;
+}
+.icon-gray:hover {
+  filter: grayscale(0%);
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#top-nav {
+  display: flex;
+  align-items: center;
+  font-size: 1.2em;
+  justify-content: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
+#top-nav a {
+  font-size: 1.25em;
+  color: #333333;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  border-radius: 0;
+  transition: color 1s;
+}
+#top-nav a:hover {
+  color: #ff6b35;
+}
+#bottom-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  font-size: 2em;
+}
+p:first-letter {
+  font-size: 3em;
+}
+section {
+  background-color: #FFFDFF;
+  padding: 2em 4em;
+  margin: 2em;
+  box-shadow: -1px -1px 3px #535151;
+  border-radius: 1em;
+}
+.ul {
+  line-height: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.wide-list {
+  line-height: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.narrow-list {
+  line-height: 2em;
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  list-style: none;
+}
+.medium-list {
+  line-height: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.tag {
+  display: inline-block;
+  color: #FFFDFF;
+  padding: 0 0.5em;
+  margin: 0 0.5em;
+  font-size: 1em;
+  box-shadow: -1px -1px 3px #535151;
+  font-weight: normal;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  align-items: center;
+}
+nav #top-nav {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
+}
+nav #bottom-nav {
+  justify-content: center;
+}
+nav a {
+  font-size: 1.25em;
+  color: #333333;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  border-radius: 0;
+  transition: color 1s;
+}
+nav a:hover {
+  color: #ff6b35;
+}
+/*# sourceMappingURL=navigation.css.map */
