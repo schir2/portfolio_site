@@ -1,0 +1,36 @@
+@import 'colors';
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-nav {
+    .nav();
+    font-size: 1.2em;
+    justify-content: center;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+
+    a {
+    font-size: 1.25em;
+    color: #333333;
+    padding-left: .6em;
+    padding-right: .6em;
+
+    border-radius: 0;
+    transition: color 1s;
+    }
+    a:hover {
+        color: @color-contrast;
+
+    }
+
+    a:active {
+    }
+}
+#bottom-nav{
+    .nav();
+}

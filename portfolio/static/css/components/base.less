@@ -1,0 +1,49 @@
+@import 'colors';
+@import 'fonts';
+
+
+*{
+    font-family: @font-primary, @font-primary-fallback}
+body {
+    background:url("/static/img/bg/butterfly/butterfly_2560.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1, h2, h3 {}
+h1{
+    font-size:@font-large;
+    color: @color-contrast;
+}
+h2{font-size: @font-medium-large;}
+h3{font-size: @font-medium;color: @color-contrast;}
+h4{font-size: @font-medium-small;}
+a {text-decoration: None;}
+main {
+    display:grid;
+    justify-content: center;
+}
+
+.logo{
+    height: 4em;
+    padding-right: .6em;
+    transition: color 1s;
+}
+
+.logo:hover {color: @color-contrast;}
+.icon {
+    height:2em;
+    vertical-align: middle;
+}
+.icon-gray{
+    .icon();
+    padding-left:.5em;
+    padding-right:.5em;
+    filter:grayscale(100%);
+    transition: all 1.5s ease;
+
+}
+.icon-gray:hover{
+    filter:grayscale(0%);
+}

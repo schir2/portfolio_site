@@ -1,0 +1,20 @@
+@import 'colors';
+@import 'fonts';
+
+.ul {
+  line-height: @font-medium;
+  display:flex;
+  flex-direction: column;
+}
+
+.wide-list{
+  .ul();
+}
+.narrow-list{
+  .ul();
+  flex-direction: row;
+  list-style: none;
+}
+.medium-list{
+  .ul();
+}

@@ -1,4 +1,45 @@
 {% extends 'base.html' %}
 {% block content %}
-<h1>Hello World</h1>
+    <section id="resume">
+    <h2>Marek Schir - Python Developer</h2>
+    <h3>Experience</h3>
+    <h4>
+        IT Admin / Programming Analyst at <img class="icon" src="{{ url_for('static',filename='img/logos/mmenviro_tree.png') }}" alt=""/> M&M Environmental<span class="tag bg-color-light-blue">2011 - Now</span>
+    </h4>
+    <ul id="experience-list" class="wide-list">
+        <li>Built a front-end Django dashboard extending our aging CRM (MSSQL) to improve the efficiency of our customer service and accounting team.</li>
+        <li>Integrated GPS API with our CRM for auditing technician’s routes to improve route performance.</li>
+        <li>Integrated GPS with TSheets for auditing usage of vehicle outside of working hours and tracking gas mileage.</li>
+        <li>Integrated Birdseye with our CRM for automated messaging to improve social presence of our business.</li>
+        <li>Migrated Adobe Sign to DocuSign using API’s</li>
+        <li>Wrote Ad-hoc SQL scripts to create reports for management, some of which were integrated into the Django platform.</li>
+        <li>Created mmbedbuginspectors.com and other smaller websites as requested by management</li>
+        <li>Customized and maintained multiple WordPress websites.</li>
+        <li>Created a web scraper script that improved the efficiency of our customer service team that led to better social presence of our business.</li>
+        <li>Used pandas to visualize and audit our data to allow management to make decisions.
+    </ul>
+    <h3>Coding and Scripting</h3>
+    <ul id="skills-list" class="narrow-list">
+        <li class="tag bg-color-contrast">Python</li>
+        <li class="tag bg-color-light-blue">SQL</li>
+        <li class="tag bg-color-light-blue">HTML</li>
+        <li class="tag bg-color-light-blue">CSS</li>
+        <li class="tag bg-color-gray">PHP</li>
+    </ul>
+    <h3>Frameworks</h3>
+    <ul id="frameworks-list" class="narrow-list">
+        <li class="tag bg-color-light-blue">DJango</li>
+        <li class="tag bg-color-contrast">Flask</li>
+    </ul>
+    <h3>Education</h3>
+    <h4>New York City College of Technology</h4>
+    Bachelor of Technology in Computer Engineering Technology
+    <h4>Coursera</h4>
+    <ul id="class-list medium-list">
+        <li>Python for Data Science and AI</li>
+        <li>Mathematics for machine Learning: PCA</li>
+        <li>Machine Learning</li>
+        <li>Fundamentals of Graphics Design</li>
+    </ul>
+    </section>
 {% endblock %}

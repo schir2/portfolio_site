@@ -35,4 +35,4 @@ def contact_me():
 
 @app.route('/canvas')
 def canvas():
-    return render_template('portfolio/templates/canvas.html')
+    return render_template('portfolio/canvas.html')
